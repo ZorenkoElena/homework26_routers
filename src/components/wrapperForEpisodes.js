@@ -1,15 +1,19 @@
 import React, { useState } from 'react';
 import './component.css';
 import useAxiosEpisodes from '../hooks/useAxiosEpisodes.js';
-import { Link } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import Pagination from './pagination';
 import HeroCard from './card.js';
 
 const ListOfEpisodes = (props) => {
+  const navigate = useNavigate();
+  const showCardInfo = (id) => navigate('/episodes');
   return (
     <div className="herolist">
       {props.data.map((hero, index) => (
-        <HeroCard key={`hero-card-${index}`}>{hero.name}</HeroCard>
+        <HeroCard key={`hero-card-${index}`} onClick={() => showCardInfo()}>
+          {hero.name}
+        </HeroCard>
       ))}
     </div>
   );
