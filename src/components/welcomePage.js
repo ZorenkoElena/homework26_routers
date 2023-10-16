@@ -2,7 +2,7 @@ import React from 'react';
 import './component.css';
 import { Link } from 'react-router-dom';
 
-const HomePage = () => {
+const WelcomePage = () => {
   return (
     <div className="wrapper">
       <h4>Welcome to the The Rick and Morty page!</h4>
@@ -22,4 +22,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default WelcomePage;
