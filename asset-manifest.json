@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/homework26_routers/static/css/main.29247adb.css",
-    "main.js": "/homework26_routers/static/js/main.259cf91e.js",
-    "static/js/787.a5194550.chunk.js": "/homework26_routers/static/js/787.a5194550.chunk.js",
-    "index.html": "/homework26_routers/index.html",
-    "main.29247adb.css.map": "/homework26_routers/static/css/main.29247adb.css.map",
-    "main.259cf91e.js.map": "/homework26_routers/static/js/main.259cf91e.js.map",
-    "787.a5194550.chunk.js.map": "/homework26_routers/static/js/787.a5194550.chunk.js.map"
+    "main.css": "/static/css/main.29247adb.css",
+    "main.js": "/static/js/main.ad331e3f.js",
+    "static/js/787.a5194550.chunk.js": "/static/js/787.a5194550.chunk.js",
+    "index.html": "/index.html",
+    "main.29247adb.css.map": "/static/css/main.29247adb.css.map",
+    "main.ad331e3f.js.map": "/static/js/main.ad331e3f.js.map",
+    "787.a5194550.chunk.js.map": "/static/js/787.a5194550.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29247adb.css",
-    "static/js/main.259cf91e.js"
+    "static/js/main.ad331e3f.js"
   ]
 }
